@@ -1,0 +1,23 @@
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:80%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    height:200%;
+    width:200%;
+    position:absolute;
+    margin-top: 10px;
+}
+.scroller {
+    width: 400px;
+    height: 550px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    background-image: url('blur.jpg');
+  }
+  .card{
+      margin-top: 20px;
+      margin-left: 25px;
+  }
